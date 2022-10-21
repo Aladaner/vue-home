@@ -1,0 +1,10 @@
+.visually-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
