@@ -66,6 +66,7 @@ export default {
 
 	&__body {
 		position: relative;
+		min-height: rem(560);
 		z-index: 1;
 		display: flex;
 		gap: rem(35);

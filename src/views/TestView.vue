@@ -1,17 +1,16 @@
 <template>
     <div>
-    <Preview />
+        <VideoBlock />
     </div>
 </template>
 
 <script>
-import Preview from '@/components/Preview.vue';
-
+import VideoBlock from '@/components/VideoBlock.vue';
 export default {
     setup() {
         return {};
     },
-    components: { Preview }
+    components: { VideoBlock }
 }
 </script>
 
