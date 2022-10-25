@@ -3,7 +3,7 @@
 		<div class="preview__container container">
 			<div class="preview__body">
 				<div class="preview__content">
-					<div class="preview__content-title">
+					<div class="preview__content-title title">
 						<h2>Хотите посмотреть?</h2>
 					</div>
 					<div class="preview__content-text">{{ contentText }}</div>
@@ -83,13 +83,7 @@ export default {
 	// .preview__content-title
 
 	&__content-title {
-		font-family: $fPlayfair;
-		font-weight: 700;
-		font-size: rem(36);
-		line-height: rem(48);
-		color: $ctitle;
-		text-align: left;
-		margin-bottom: 50px;
+		margin-bottom: rem(50);
 	}
 
 	// .preview__content-text

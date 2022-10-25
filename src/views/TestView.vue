@@ -1,16 +1,15 @@
 <template>
     <div>
-        <VideoBlock />
+       <Questions />
     </div>
 </template>
 
 <script>
-import VideoBlock from '@/components/VideoBlock.vue';
+import Questions from "@/components/Questions.vue"
+
 export default {
-    setup() {
-        return {};
-    },
-    components: { VideoBlock }
+    
+    components: {Questions}
 }
 </script>
 

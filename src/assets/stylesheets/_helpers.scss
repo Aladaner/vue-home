@@ -8,3 +8,12 @@
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+.title {
+	font-family: $fPlayfair;
+	font-weight: 700;
+	font-size: rem(36);
+	line-height: rem(48);
+	color: $ctitle;
+	text-align: left;
+}

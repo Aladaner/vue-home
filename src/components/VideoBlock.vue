@@ -1,7 +1,7 @@
 <template>
 	<div class="video">
 		<div class="video__container container">
-			<video src="../assets/video.mp4" controls muted></video>
+			<video src="../assets/video.mp4" controls muted ></video>
 		</div>
 	</div>
 </template>

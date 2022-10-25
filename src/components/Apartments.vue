@@ -1,7 +1,7 @@
 <template>
 	<div class="apartments">
 		<div class="apartments__container container">
-			<div class="apartments__title">
+			<div class="apartments__title title">
 				<h2>Наши квартиры</h2>
 			</div>
 
@@ -54,13 +54,7 @@ export default {
 	// .apartments__title
 
 	&__title {
-		font-family: $fPlayfair;
-		font-weight: 700;
-		font-size: rem(36);
-		line-height: rem(48);
-		color: $ctitle;
 		margin-bottom: rem(100);
-		text-align: left;
 	}
 
 	// .apartments__items
