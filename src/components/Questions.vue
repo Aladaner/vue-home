@@ -6,14 +6,10 @@
 			</div>
 			<form action="#" method="post" class="questions__form">
 				<div class="questions__block">
-					<div class="questions__block-inputs">
-						<my-input type="text" name="username" id="" placeholder="Ваше имя" required />
-						<my-input type="tel" name="phone" id="" placeholder="Ваш телефон" required />
-					</div>
-					<div class="questions__block-other">
-						<div class="questions__block-info">{{ infoText }}</div>
-						<my-button>Посмотреть район</my-button>
-					</div>
+					<div class="questions__block-info">{{ infoText }}</div>
+					<my-input type="text" name="username" id="" placeholder="Ваше имя" required />
+					<my-input type="tel" name="phone" id="" placeholder="Ваш телефон" required />
+					<my-button>Посмотреть район</my-button>					
 				</div>
 			</form>
 		</div>
@@ -32,7 +28,7 @@
 
 <style lang="scss" scoped>
 .questions {
-
+	margin-top: rem(180);
 	// .questions__container
 
 	&__container {
@@ -42,7 +38,9 @@
 
 	// .questions__title
 
-	&__title {}
+	&__title {
+		margin-bottom: rem(50);
+	}
 
 	// .questions__form
 
@@ -52,18 +50,29 @@
 
 	// .questions__block
 
-	&__block {}
+	&__block {
+		display: flex;
+		align-items: center;
 
-	// .questions__block-inputs
+		input {
+			margin-right: rem(30);
+			min-width: 250px;
+		}
 
-	&__block-inputs {}
+		button {
+			min-width: 250px;
+			height: 50px;
+		}
+	}
 
-	// .questions__block-other
-
-	&__block-other {}
-
-	// .questions__block-info
-
-	&__block-info {}
+	&__block-info {
+		width: 25%;
+		min-width: 255px;
+		margin-right: rem(35);
+		color: $cnote;
+		font-size: 13px;
+		font-weight: 400;
+		font-family: $fRaleway;
+	}
 }
 </style>

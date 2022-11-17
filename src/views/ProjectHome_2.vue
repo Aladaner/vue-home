@@ -14,6 +14,7 @@
 		<Preview />
 		<VideoBlock />
 		<MapBlock />
+		<Questions />
 	</div>
 
 </template>
@@ -28,8 +29,9 @@ import Apartments from '@/components/Apartments.vue';
 import Preview from '@/components/Preview.vue';
 import VideoBlock from '@/components/VideoBlock.vue';
 import MapBlock from '@/components/MapBlock.vue';
+import Questions from '@/components/Questions.vue';
 export default {
-	components: { Navbar, Contacts, Peculiarities, Apartments, Preview, VideoBlock, MapBlock }
+	components: { Navbar, Contacts, Peculiarities, Apartments, Preview, VideoBlock, MapBlock, Questions }
 }
 </script>
 
