@@ -1,15 +1,15 @@
 <template>
     <div>
-       <Questions />
+       <Footer />
     </div>
 </template>
 
 <script>
-import Questions from "@/components/Questions.vue"
+import Footer from "@/components/Footer.vue";
 
 export default {
     
-    components: {Questions}
+    components: {Footer }
 }
 </script>
 
