@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
+// import HomeView from '../views/HomeView.vue';
+import HomeView from '../views/ProjectHome.vue';
 
 const routes = [
 	{
@@ -16,11 +17,11 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/TestView.vue'),
 	},
-	{
-		path: '/projecthome_2',
-		name: 'projecthome_2',
-		component: () => import('../views/ProjectHome_2.vue'),
-	},
+	// {
+	// 	path: '/projecthome',
+	// 	name: 'projecthome',
+	// 	component: () => import('../views/ProjectHome.vue'),
+	// },
 ];
 
 const router = createRouter({

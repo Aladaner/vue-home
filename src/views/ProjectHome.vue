@@ -15,6 +15,7 @@
 		<VideoBlock />
 		<MapBlock />
 		<Questions />
+		<Footer />
 	</div>
 
 </template>
@@ -30,8 +31,9 @@ import Preview from '@/components/Preview.vue';
 import VideoBlock from '@/components/VideoBlock.vue';
 import MapBlock from '@/components/MapBlock.vue';
 import Questions from '@/components/Questions.vue';
+import Footer from '@/components/Footer.vue';
 export default {
-	components: { Navbar, Contacts, Peculiarities, Apartments, Preview, VideoBlock, MapBlock, Questions }
+	components: { Navbar, Contacts, Peculiarities, Apartments, Preview, VideoBlock, MapBlock, Questions, Footer }
 }
 </script>
 
