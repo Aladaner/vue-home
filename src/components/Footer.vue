@@ -10,7 +10,7 @@
 			<div class="footer__menu menu-1">
 				<ul class="footer__menu-list">
 					<li class="footer__menu-item" v-for="(item, idx) in FooterMenuList" :key="idx">
-						<router-link to="/">{{ item.text }}</router-link>
+						<router-link to="/404">{{ item.text }}</router-link>
 					</li>
 				</ul>
 			</div>
@@ -18,7 +18,7 @@
 			<div class="footer__menu menu-2">
 				<ul class="footer__menu-list">
 					<li class="footer__menu-item" v-for="(item, idx) in FooterMenuList" :key="idx">
-						<router-link to="/">{{ item.text }}</router-link>
+						<router-link to="/404">{{ item.text }}</router-link>
 					</li>
 				</ul>
 			</div>
@@ -31,7 +31,7 @@
 				</ul>
 				<div class="footer__social">
 					<div class="social__items" v-for="(item, idx) in FooterSocial" :key="idx">
-						<a href=""><img :src="item.image"></a>
+						<a href="404"><img :src="item.image"></a>
 					</div>
 				</div>
 			</div>

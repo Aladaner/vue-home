@@ -17,22 +17,22 @@
 					<nav class="header__menu">
 						<ul class="header__menu-links">
 							<li>
-								<router-link to="/" class="header__menu-link">О комплексе</router-link>
+								<router-link to="/404" class="header__menu-link">О комплексе</router-link>
 							</li>
 							<li>
-								<router-link to="/" class="header__menu-link">Район</router-link>
+								<router-link to="/404" class="header__menu-link">Район</router-link>
 							</li>
 							<li>
-								<router-link to="/" class="header__menu-link">Каталог квартир</router-link>
+								<router-link to="/404" class="header__menu-link">Каталог квартир</router-link>
 							</li>
 							<li>
-								<router-link to="/" class="header__menu-link">Ипотека</router-link>
+								<router-link to="/404" class="header__menu-link">Ипотека</router-link>
 							</li>
 							<li>
-								<router-link to="/" class="header__menu-link">Контакты</router-link>
+								<router-link to="/404" class="header__menu-link">Контакты</router-link>
 							</li>
 							<li>
-								<router-link to="/" class="header__menu-link">Контакты</router-link>
+								<router-link to="/404" class="header__menu-link">Контакты</router-link>
 							</li>
 						</ul>
 					</nav>

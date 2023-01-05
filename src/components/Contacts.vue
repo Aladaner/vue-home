@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="bottom__contacts">
-			<div class="bottom__contacts-map"><a href="">{{ location }}</a></div>
+			<div class="bottom__contacts-map"><a href="404">{{ location }}</a></div>
 			<div class="bottom__contacts-phone"><a href="tel:{{ phoneNumber }}">{{ phoneNumber }}</a></div>
 		</div>
 	</div>

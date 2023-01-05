@@ -17,11 +17,11 @@ const routes = [
 	// 	component: () =>
 	// 		import(/* webpackChunkName: "about" */ '../views/TestView.vue'),
 	// },
-	// {
-	// 	path: '/projecthome',
-	// 	name: 'projecthome',
-	// 	component: () => import('../views/ProjectHome.vue'),
-	// },
+	{
+		path: '/404',
+		name: '404',
+		component: () => import('../views/404.vue'),
+	},
 ];
 
 const router = createRouter({

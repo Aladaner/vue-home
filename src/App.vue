@@ -29,4 +29,7 @@
   width: 0;
   background: transparent;
 }
+body {
+  background-color: black;
+}
 </style>
